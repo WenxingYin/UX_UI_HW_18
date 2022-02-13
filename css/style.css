@@ -1,0 +1,87 @@
+
+header {
+    padding: 0px 30px;
+}
+
+header ul{
+    float: right;
+    margin-top: 45px;
+}
+
+header li {
+    display: inline-block;
+    padding: 0px 40px;
+    font-size: 24px;
+    font-weight:bold;
+    font-family:'Montserrat';
+  }
+    
+header i {
+    display: inline-block;
+    padding: 5px;
+  }
+
+.jumbotron {
+    color: black;
+    background-image: url('../images/Hero Image.png');
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 53vh;
+  }
+  .container {
+    padding: 90px 50px;
+    max-width: 500px;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight:630;
+    font-family:'Montserrat';
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 20px;
+    font-family:'Montserrat';
+    line-height: 30px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #373F41;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family:'Montserrat';
+  }
+
+  footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 24px;
+    font-weight:630;
+    font-family:'Montserrat';
+    line-height: 32px;
+  }
+
+
+ footer i {
+    margin-top: 5px;
+    padding: 5px;
+  }
+
+  .contact {
+    font-size: 20px;
+    font-family:'Montserrat';
+  }
+
+  .copyright {
+    margin-top: 40px;
+    font-size: 14px;
+    font-family:'Montserrat';
+    color: #737B7D
+  }

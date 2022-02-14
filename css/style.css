@@ -85,3 +85,148 @@ header i {
     font-family:'Montserrat';
     color: #737B7D
   }
+
+  /* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 10px 50px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+  text-align: center;
+}
+
+h3{
+  margin-left: 85px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family:'Montserrat';
+  line-height: 32px;
+}
+
+h4{
+  font-size: 18px;
+  font-weight: bold;
+  font-family:'Montserrat';
+  line-height: 24px;
+}
+
+p2{
+  font-size: 16px;
+  font-family:'Montserrat';
+  line-height: 24px;  
+}
+
+/* My Work Section */
+.myWork {
+  padding: 60px 0px;
+  padding-top: 5px;
+  background-color: #EBEBEB;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3 {
+  padding-top: 5px;
+  padding: 0px 85px;
+}
+
+.content1, .content2, .content3 {
+  padding-right: 85px;
+}
+
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+
+h5{
+  font-size: 24px;
+  font-weight: bold;
+  font-family:'Montserrat';
+  line-height: 32px;
+  margin-top: 0px;
+}
+
+.p3{
+  font-size: 18px;
+  font-family:'Montserrat';
+  line-height: 24px;  
+}
+
+.button2 {
+  padding: 10px 20px;
+  background-color: #373F41;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  font-family:'Montserrat';
+}
+
+h6{
+  font-size: 24px;
+  font-weight: bold;
+  font-family:'Montserrat';
+  line-height: 32px;
+  text-align:center;
+}
+
+.button3{
+  padding: 10px 300px;
+  background-color: #EBEBEB;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+  border-radius: 0px;
+  font-family:'Montserrat';
+} 
+
+.viewAllProjects{
+  text-align: center;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 600){
+  .flexContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .workGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    "img3 content3"
+    ;
+  }
+}
